@@ -1,0 +1,123 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(252, 101, 0);
+  color: white;
+}
+.brand{
+margin-top: -7px;
+}
+.brand span{
+  color: black;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+.Menu{
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+.Menu li{
+  list-style: none;
+}
+.Menu a{
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.Menu a:hover{
+  background-color: black;
+  transition: ease-in-out .4s;
+  border-radius: 3em;
+}
+.main{
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+
+}
+.info h1{
+  font-size: 3em;
+}
+.info span{
+ color: black;
+}
+.descargar_cv{
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+  border-radius:  3em;
+  cursor: pointer;
+  border: none;
+}
+.descargar_cv:hover{
+  background-color: white;
+  color: black;
+}
+.main img{
+  width: 300px;
+  height: 500px;
+}
+.acerca{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  width: 100vw;
+  align-items: center;
+}
+.mas_de_mi{
+  padding: 10px 15px;
+  background-color: rgb(252, 101, 0) ;
+  color: black;
+  border-radius:  3em;
+  cursor: pointer;
+  border: none;
+}
+.mas_de_mi:hover{
+  background-color:black;
+  color: white;  
+}
+.acerca img{
+  width: 100%;
+  grid-column:1/5;  
+}
+.Informacion{
+  grid-column: 5/10;
+  padding:4em;
+
+}
+.Informacion h2{
+  font-size: 3em;
+  color:rgb(252, 101, 0) ;
+}
+.justificacion{
+  height: 3px;
+  width: 100px;
+  background-color: black;
+  margin-bottom: 2em;
+}
+.Informacion P{
+  margin-bottom: 2em;
+
+}
+
+
+
+
